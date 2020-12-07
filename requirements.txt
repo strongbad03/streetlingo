@@ -1,0 +1,7 @@
+./pkg/pycld3-0.20-cp36-cp36m-manylinux1_x86_64.whl
+fiona
+geopandas
+iso-639
+pandas
+requests
+shapely
