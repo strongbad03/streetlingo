@@ -27,13 +27,8 @@ def lid_text(text):
 
 def load_data(file):
     print('Loading data from geodatabase')
-    dfs = []
-    layers = fiona.listlayers(file)
-    for layer in layers:
-        gdf = gpd.read_file(file, driver='FileGDB', layer=layer)
-        dfs.append(gdf)
-    return dfs
-
+    df = gpd.read_file(file, driver='FileGDB', layer='Roads')
+    return df
 
 def unzip_data(archive):
     print('Unzipping data file')

@@ -1,7 +1,11 @@
 ./pkg/pycld3-0.20-cp36-cp36m-manylinux1_x86_64.whl
+Cython
+dask
 fiona
 geopandas
 iso-639
+jupyter
 pandas
+pygeos
 requests
 shapely

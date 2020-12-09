@@ -1,2 +1,5 @@
 *.zip
 *.idea
+*.pyc
+__pycache__/
+data/
